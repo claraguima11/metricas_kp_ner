@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metricas_ner"
+version = "0.2.0"
+description = "Métricas de avaliação de NER/keyphrases a partir de JSONL do Doccano: mismatches (Nejadgholi et al., 2020), 4 variantes de F1 e R-precision/MRR/Bpref (Hasan & Ng, 2014)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+juiz = ["torch", "transformers>=4.46", "accelerate", "datasets", "scikit-learn", "spacy"]
+dev = ["pytest"]
+
+[project.scripts]
+metricas_ner = "metricas_ner.__main__:main"
+
+[tool.setuptools]
+packages = ["metricas_ner"]

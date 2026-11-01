@@ -1,0 +1,50 @@
+[
+ {
+  "id": 1,
+  "text": "PESSOA",
+  "prefix_key": null,
+  "suffix_key": null,
+  "background_color": "#209cee",
+  "text_color": "#ffffff"
+ },
+ {
+  "id": 2,
+  "text": "ORGANIZACAO",
+  "prefix_key": null,
+  "suffix_key": null,
+  "background_color": "#209cee",
+  "text_color": "#ffffff"
+ },
+ {
+  "id": 3,
+  "text": "LOCAL",
+  "prefix_key": null,
+  "suffix_key": null,
+  "background_color": "#209cee",
+  "text_color": "#ffffff"
+ },
+ {
+  "id": 4,
+  "text": "TEMPO",
+  "prefix_key": null,
+  "suffix_key": null,
+  "background_color": "#209cee",
+  "text_color": "#ffffff"
+ },
+ {
+  "id": 5,
+  "text": "LEGISLACAO",
+  "prefix_key": null,
+  "suffix_key": null,
+  "background_color": "#209cee",
+  "text_color": "#ffffff"
+ },
+ {
+  "id": 6,
+  "text": "JURISPRUDENCIA",
+  "prefix_key": null,
+  "suffix_key": null,
+  "background_color": "#209cee",
+  "text_color": "#ffffff"
+ }
+]
